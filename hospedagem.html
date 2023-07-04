@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+ <title>FasTravel</title>
+<link rel="stylesheet" href="hospedagem.css">
+</head>
+ <body id="dataInput">
+
+<div class="container"> 
+ <div class="topPage">
+  <h1>FasTravel</h1>
+  <div class="navigationBar">
+   <div class="hospedagem" onclick="openPage('hospedagem', 'dataInput')"><span class="material-symbols-outlined"> king_bed </span> Hospedagem </div>
+   <div class="voos" onclick="openPage('voos', 'dataInput')"><span class="material-symbols-outlined"> travel </span> Voos </div>
+   <div class="pagamento" onclick="openPage('pagamento', 'dataInput')"><span class="material-symbols-outlined">payments</span>Pagamento</div>
+  </div> 
+ </div>
+ 
+
+ <img src="https://img.freepik.com/fotos-premium/seascape-ao-por-do-sol-bela-praia-a-noite-linha-de-surf-banner-horizontal_416511-7949.jpg?w=2000" alt="praia">
+
+  <div class="inputs">
+   <input class="onde" type="text"   id="local"  placeholder="Para onde você vai?">
+   <input class="quantoT" type="number" id="days"   placeholder="Quantos dias planeja ficar hospedado?">
+   <input class="quem" type="number" id="people" placeholder="Quantas pessoas irão?">
+   <input class="quartos" type="number" id="room"   placeholder="Quantos quartos serão necessarios?">
+   <button class="btn" onclick="getValue()">Pesquisar</button>
+  </div>
+
+
+
+</div>
+ <script src="main.js">initializeMap()</script>
+</body>
+</html>

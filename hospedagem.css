@@ -1,0 +1,87 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.topPage {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(6, 0, 117) 0%, rgb(30, 30, 168) 35%, rgb(55, 227, 233) 100%);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+}
+h1{
+    margin-left: 25vw;
+    font-size: 3vmax;
+    font-weight: bold
+}
+
+.navigationBar{
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    margin-left: 25vw;
+    margin-right: 50vw;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+
+.hospedagem, .voos, .pagamento {
+    border: solid 1px whitesmoke;
+    border-radius: 15px;
+    padding: 0.5vh 1vw;
+    align-items: center;
+    
+}
+
+img{
+    width: 100vw;
+    height: 30vh;
+    margin-bottom: 0px;
+}
+
+.inputs {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 33vw 100vh 25vw;
+}
+.container{
+    background-color: whitesmoke;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.onde, .quantoT, .quem, .quartos, .btn   {
+    height: 6vh;
+    width: 20vw;
+    font-size: 1.5vh;
+    font-weight: bolder;
+    /* margin: 0.16vh 0.93vw ; */
+    border-radius: 7px;
+    border:none;
+    background-color: whitesmoke;
+    color: black;
+    float: inline-start;
+    border: solid 2px rgb(0, 0, 0);
+    margin-top: 1.5vh;
+}
+
+.btn {
+    height: 5vh;
+    width: 14vw;
+    font-size: 1.4vh;
+    position:absolute;
+    margin: 10vh 75vw 100vh 35vw;
+    border: solid 2px rgb(0, 0, 0);
+    cursor: pointer;
+}

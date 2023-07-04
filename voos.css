@@ -1,0 +1,80 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.topPage {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(6, 0, 117) 0%, rgb(30, 30, 168) 35%, rgb(55, 227, 233) 100%);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+}
+h1{
+    margin-left: 25vw;
+    font-size: 3vmax;
+    font-weight: bold
+}
+
+.navigationBar{
+    padding-top: 5vh;
+    display: flex;
+    align-items: center;
+    margin-left: 25vw;
+    margin-right: 50vw;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+
+.hospedagem, .voos, .pagamento {
+    border: solid 1px whitesmoke;
+    border-radius: 15px;
+    padding: 0.5vh 1vw;
+    align-items: center;
+    
+}
+.options {
+    color: black;
+    font-size: larger;
+}
+
+.inputs{
+    margin: 5vh 3vw 1vh 25vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.local{
+    font-size: 2.75vh;
+    width: 25vw;
+    
+}
+
+.procurar{
+    margin-left: 4vw;
+    font-size: larger;
+    padding: 0.4vh 1vw;
+    cursor: pointer;
+    width: 25vw;
+}
+
+.vooOptions {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 2vh 2vw;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.btnOptions{
+    margin-left: 20vw;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
